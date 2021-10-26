@@ -521,6 +521,7 @@ body{
   }
   .navbar .nav-list li 
   {
+    cursor: pointer;
     font-weight: 400;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -575,7 +576,7 @@ body{
   {
         margin-top: 50px;
         padding: 54%;
-        margin-right: -50%;
+        margin-right: -18%;
         place-items: center;
   }
 
