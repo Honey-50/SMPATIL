@@ -14,17 +14,15 @@
 }
 .logo img
 {
-    width: 140%;
-    border: 2px solid white;
+    width: 110%;
+    border: 1px solid whitesmoke;
     border-radius: 30px ;
-    max-height: 70px;
 }
 .navbar
 {
     z-index: 999;
-    background: rgb(0, 0, 0, 0.9) url("IMG/AS11.jpg");
-    background-size: cover;
-    background-blend-mode: darken;
+    /* background-size: cover; */
+    background-color: cornsilk;
     display: flex;
     position: sticky;
     align-items: center;
@@ -54,7 +52,7 @@
 .navbar .nav-list li a
 {
    text-decoration: none;
-   color: white;
+   color: whitesmoke;
 }
 
    .navbar .nav-list li a:hover
@@ -66,7 +64,7 @@
 .background
 {
     z-index: 10;
-    background: rgb(0, 0, 0, 0.7) url("IMG/AS11.jpg");
+    background: rgb(0, 0, 0, 0.7) url("IMG/AS.jpg");
     background-size: cover;
     background-blend-mode: darken;
     position: sticky;
@@ -88,17 +86,16 @@
 }
 .containerx
 {
-  margin-right: auto;
+  /* margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px; */
+  justify-content: center;
+  align-items: center;
 }
 .row1
 {
-   margin-right: 10px;
-   margin-left: 10px;
-   text-align: center;
-   justify-content: center;
+ 
    padding-top: 180px;
 }
 .background h1{
@@ -446,6 +443,23 @@ body{
   background: #5029bc;
 }
 
+/* map */
+.mapBox
+{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display:flex ;
+
+}
+
+.mapBox iframe
+{
+  width: 100%;
+  height: 100%;
+}
+
+
 @media (max-width: 950px) {
   .container{
     width: 90%;
@@ -495,7 +509,7 @@ body{
   margin: 5px 3px;
 }
 
-/* Media Query */
+                                                 /* Media Query */
 @media screen and (max-width:1140px){
 
   .navbar
@@ -545,6 +559,7 @@ body{
     flex-direction: column;
     height: 500px;
   }
+
   .burger
   {
     display: block;
@@ -598,6 +613,14 @@ body{
   }
   .feature-box-1:hover {
     top: -5px;
+  }
+
+  .mapBox
+  {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  
   }
 }
                                   
